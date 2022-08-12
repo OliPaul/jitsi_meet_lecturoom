@@ -2,6 +2,7 @@
   package="com.gunschu.jitsi_meet">
     <application>
         <activity
+            android:exported="false"
             android:name=".JitsiMeetPluginActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
             android:launchMode="singleTask"
